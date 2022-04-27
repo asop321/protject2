@@ -1,3 +1,13 @@
+$( document ).ready( function() {
+  $( '.main_slider' ).bxSlider({
+    auto: true,
+    pause: 3000,
+    pager:false,
+   nextText: '<i class="fas fa-chevron-right"></i>',
+  prevText: '<i class="fas fa-chevron-left"></i>',
+  });
+} );
+
 $(function () {
     $('.gallery').bxSlider({
      
@@ -8,7 +18,6 @@ $(function () {
       slideMargin:30,
       moveSlides:4,
       pager:false,
-
+  
     });
 })
- 
