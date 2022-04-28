@@ -101,7 +101,7 @@
   .footer-utils .footer-link{
     font-size: 12px;
     margin-left: 20px;
-    max-width: 780px;
+    max-width: 760px;
   }
   .footer-utils img{
     margin-top: -10px;
@@ -153,7 +153,7 @@
 display: none;
 }
 .footer-utils .footer-link{
-  max-width: 480px;
+  max-width: 460px;
 }
 .footer-utils p{
   width: 280px;
@@ -161,7 +161,7 @@ display: none;
   padding: 7px 0;
 }
 .footer-utils p.small{
-  width: 500px;
+  width: 475px;
   padding: 0;
 }
 .w3c{
