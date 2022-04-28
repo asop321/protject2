@@ -101,6 +101,7 @@
   .footer-utils .footer-link{
     font-size: 12px;
     margin-left: 20px;
+    max-width: 780px;
   }
   .footer-utils img{
     margin-top: -10px;
@@ -140,6 +141,9 @@
 .widget_header_region{
   margin-top: 30px;
 }
+.footer{
+  padding-bottom: 10px;
+}
 .footer-common{
   margin-left: 70px;
 }
@@ -147,6 +151,9 @@
 .footer-utils .footer-link li:nth-child(6),
 .footer-utils .footer-link li:nth-child(7){
 display: none;
+}
+.footer-utils .footer-link{
+  max-width: 480px;
 }
 .footer-utils p{
   width: 280px;
@@ -157,10 +164,11 @@ display: none;
   width: 500px;
   padding: 0;
 }
-.footer-utils img{
-  margin-top: -55px;
-  margin-left: 320px;
-} 
+.w3c{
+  margin-top: 20px;
+  
+}
+
 }
 
 
