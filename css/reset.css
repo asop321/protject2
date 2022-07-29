@@ -1,71 +1,6 @@
 @charset "UTF-8";
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/kr/ko/resource/font/Montserrat-Light.eot');
-  src: url('/kr/ko/resource/font/Montserrat-Light.woff2') format('woff2'),
-    url('/kr/ko/resource/font/Montserrat-Light.woff') format('woff');
-}
 
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  src: url('/kr/ko/resource/font/Montserrat-SemiBold.eot');
-  src: url('/kr/ko/resource/font/Montserrat-SemiBold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/kr/ko/resource/font/Montserrat-Bold.eot');
-  src: url('/kr/ko/resource/font/Montserrat-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'NotoSans';
-  font-style: normal;
-  font-weight: 100;
-  src: url('/kr/ko/resource/font/NotoSansCJKkr-Light-subset.eot');
-  src: url('/kr/ko/resource/font/NotoSansCJKkr-Light-subset.woff2')
-      format('woff2'),
-    url('/kr/ko/resource/font/NotoSansCJKkr-Light-subset.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'NotoSans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/kr/ko/resource/font/NotoSansCJKkr-Regular-subset.eot');
-  src: url('/kr/ko/resource/font/NotoSansCJKkr-Regular-subset.woff2')
-      format('woff2'),
-    url('/kr/ko/resource/font/NotoSansCJKkr-Regular-subset.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'NotoSans';
-  font-style: normal;
-  font-weight: 700;
-  src: url('/kr/ko/resource/font/NotoSansCJKkr-Medium-subset.eot');
-  src: url('/kr/ko/resource/font/NotoSansCJKkr-Medium-subset.woff2')
-      format('woff2'),
-    url('/kr/ko/resource/font/NotoSansCJKkr-Medium-subset.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Geor-Grotesk-Bold';
-  src: url('/kr/ko/resource/font/Geor-Grotesk-Bold.eot');
-  src: url('/kr/ko/resource/font/Geor-Grotesk-Bold.eot?#iefix')
-      format('embedded-opentype'),
-    url('/kr/ko/resource/font/Geor-Grotesk-Bold.otf') format('otf'),
-    url('/kr/ko/resource/font/Geor-Grotesk-Bold.svg#Geor-Grotesk-Bold')
-      format('svg'),
-    url('/kr/ko/resource/font/Geor-Grotesk-Bold.ttf') format('truetype'),
-    url('/kr/ko/resource/font/Geor-Grotesk-Bold.woff') format('woff'),
-    url('/kr/ko/resource/font/Geor-Grotesk-Bold.woff2') format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
 html {
   overflow-y: scroll;
@@ -77,8 +12,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: 'NotoSans', 'Geor-Grotesk-Bold', '맑은 고딕', sans-serif,
-    'Montserrat';
+  font-family: 'Noto Sans KR', '맑은 고딕', sans-serif;
     font-size: 15px;
 }
 h2{
